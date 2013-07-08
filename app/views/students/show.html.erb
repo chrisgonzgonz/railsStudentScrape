@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @student.name %>
+</p>
+
+<p>
+  <b>Quote:</b>
+  <%= @student.quote %>
+</p>
+
+<p>
+  <b>Bio:</b>
+  <%= @student.bio %>
+</p>
+
+<p>
+  <b>Work:</b>
+  <%= @student.work %>
+</p>
+
+<p>
+  <b>Github:</b>
+  <%= @student.github %>
+</p>
+
+<p>
+  <b>Treehouse:</b>
+  <%= @student.treehouse %>
+</p>
+
+<p>
+  <b>Codeschool:</b>
+  <%= @student.codeschool %>
+</p>
+
+<p>
+  <b>Coderwall:</b>
+  <%= @student.coderwall %>
+</p>
+
+<p>
+  <b>Twitter:</b>
+  <%= @student.twitter %>
+</p>
+
+<p>
+  <b>Linkedin:</b>
+  <%= @student.linkedin %>
+</p>
+
+
+<%= link_to 'Edit', edit_student_path(@student) %> |
+<%= link_to 'Back', students_path %>
